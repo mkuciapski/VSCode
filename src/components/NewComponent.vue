@@ -3,7 +3,7 @@ import { ref, onMounted } from 'vue'
 
 const myName = ref({ Name: 'MK' })
 
-myName.value.Name = 'DT'
+myName.value.Name = 'No name'
 
 const languages = ref<string[]>([])
 
