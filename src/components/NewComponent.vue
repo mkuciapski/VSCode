@@ -10,6 +10,8 @@ const languages = ref<string[]>([])
 onMounted(() => {
   languages.value = ['C#', 'JS']
 })
+
+const users = ref<string[]>([])
 </script>
 
 <template>
